@@ -1,6 +1,6 @@
 import './AboutComp.css';
 import  heroImage  from "../assets/heroImage.png";
-import cv from '../assets/Nikhitha_Updated_Cv.pdf';
+import cv from '../assets/Nikhitha_Updated_CV.pdf';
 
 function AboutComp({ onScrollToTarget }){
     
