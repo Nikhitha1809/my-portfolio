@@ -1,0 +1,20 @@
+[
+    {
+      "role": "Software Engineer",
+      "organisation": "Italent Digital",
+      "startDate": "Apr, 2023",
+      "endDate": "Present",
+      "experiences": ["Worked on SEO", "Worked on Dynamics"],
+      "imageSrc": "src/assets/italent.jpg",
+      "location": "Hyderabad"
+    },
+    {
+      "role": "Software Engineer",
+      "organisation": "Value Momentum",
+      "startDate": "Jun, 2022",
+      "endDate": "Feb, 2023",
+      "experiences": ["Worked on C#"],
+      "imageSrc": "src/assets/valuemomentum.jpg",
+      "location": "Hyderabad"
+    }
+]

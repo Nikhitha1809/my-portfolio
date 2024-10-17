@@ -1,0 +1,33 @@
+.skills-div{
+    display: flex;
+    flex-direction: column;
+    background-color: #756f97;
+    justify-content: center;
+    margin: 0% 15% 0% 15%;
+    margin-bottom: 1%;
+    padding: 10px;
+
+}
+.skills-heading{
+    color: white;
+    font-size: 30px;
+    margin-left: 45%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+}
+.image{
+    background-color: white;
+    border-radius: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-width: 5px;
+    /* border: 5px solid transparent; Set a border style */
+    display: inline-block; /* Ensures the background applies properly */
+    padding: 10px;
+}

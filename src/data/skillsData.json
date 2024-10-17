@@ -1,0 +1,56 @@
+[
+    {
+        "imageSrc":"src/assets/html.png",
+        "label":"Html"
+    },
+    {
+        "imageSrc":"src/assets/css.png",
+        "label":"CSS"
+    },
+    {
+        "imageSrc":"src/assets/javascript.png",
+        "label":"Javascript"
+    },
+    {
+        "imageSrc":"src/assets/react.png",
+        "label":"React"
+    },
+    {
+        "imageSrc":"src/assets/nodejs.png",
+        "label":"NodeJS"
+    },
+    {
+        "imageSrc":"src/assets/csharp.png",
+        "label":"CSharp"
+    },
+    {
+        "imageSrc":"src/assets/python.jpg",
+        "label":"Python"
+    },
+    {
+        "imageSrc":"src/assets/github.png",
+        "label":"Github"
+    },
+    {
+        "imageSrc":"src/assets/bootstrap.jpg",
+        "label":"Bootstrap"
+    },
+    {
+        "imageSrc":"src/assets/npm.png",
+        "label":"Npm"
+    },
+    {
+        "imageSrc":"src/assets/vscode.png",
+        "label":"VS Code"
+    },
+    {
+        "imageSrc":"src/assets/vs.png",
+        "label":"VS"
+    },
+    {
+        "imageSrc":"src/assets/vite.png",
+        "label":"Vite"
+    }
+    
+    
+]
