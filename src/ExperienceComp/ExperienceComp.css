@@ -4,20 +4,48 @@
     margin: 0% 15% 1% 15%;
     margin-bottom: 1%;
     background-color:#514469 ;
-    /* margin-bottom: 1rem; */
     padding: 3%;
 }
 .exp-heading{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 45%;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
+}
+@media (max-width:768px){
+    .exp-heading{
+        margin-left: 10px;
+        text-align: center; 
+    }
 }
 .company-div{
     background-color: white;
     margin: 0% 10% 0% 10%;
     padding: 0% 3% 3% 3%;
 }
+@media (max-width:768px){
+    .role-org{
+        font-size: 18px;
+    }
+}
 .duration-div{
     color: #827b8e;
+}
+.company-container{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+@media (max-width:768px){
+    .company-container{
+        flex-direction: column;
+    }
+}
+.company-img{
+    width: 150px;
+}
+@media (max-width:768px){
+    .company-img{
+        width: 75px;
+    }
 }

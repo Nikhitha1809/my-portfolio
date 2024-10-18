@@ -1,6 +1,6 @@
 import './AboutComp.css';
-import  heroImage  from "../assets/heroImage.png";
-import cv from '../assets/Nikhitha_Updated_CV.pdf';
+import  heroImage  from "/assets/heroImage.png";
+import cv from '/assets/Nikhitha_Updated_CV.pdf';
 
 function AboutComp({ onScrollToTarget }){
     
@@ -26,7 +26,7 @@ function AboutComp({ onScrollToTarget }){
             </div>
             </div>
             <div>
-                <img src={heroImage} width='300px'/>
+                <img className='hero-img' src={heroImage}/>
             </div>
         </div>
     )

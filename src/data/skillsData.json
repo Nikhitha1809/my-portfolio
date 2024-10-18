@@ -1,55 +1,83 @@
 [
     {
-        "imageSrc":"src/assets/html.png",
+        "imageSrc":"/assets/html.png",
         "label":"Html"
     },
     {
-        "imageSrc":"src/assets/css.png",
+        "imageSrc":"/assets/css.png",
         "label":"CSS"
     },
     {
-        "imageSrc":"src/assets/javascript.png",
+        "imageSrc":"/assets/javascript.png",
         "label":"Javascript"
     },
     {
-        "imageSrc":"src/assets/react.png",
+        "imageSrc":"/assets/react.png",
         "label":"React"
     },
     {
-        "imageSrc":"src/assets/nodejs.png",
+        "imageSrc":"/assets/nodejs.png",
         "label":"NodeJS"
     },
     {
-        "imageSrc":"src/assets/csharp.png",
+        "imageSrc":"/assets/csharp.png",
         "label":"CSharp"
     },
     {
-        "imageSrc":"src/assets/python.jpg",
+        "imageSrc":"/assets/python.jpg",
         "label":"Python"
     },
     {
-        "imageSrc":"src/assets/github.png",
+        "imageSrc":"/assets/sql.png",
+        "label":"SQL"
+    },
+    {
+        "imageSrc":"/assets/github.png",
         "label":"Github"
     },
     {
-        "imageSrc":"src/assets/bootstrap.jpg",
+        "imageSrc":"/assets/bootstrap.jpg",
         "label":"Bootstrap"
     },
     {
-        "imageSrc":"src/assets/npm.png",
+        "imageSrc":"/assets/npm.png",
         "label":"Npm"
     },
     {
-        "imageSrc":"src/assets/vscode.png",
+        "imageSrc":"/assets/vscode.png",
         "label":"VS Code"
     },
     {
-        "imageSrc":"src/assets/vs.png",
+        "imageSrc":"/assets/vs.png",
         "label":"VS"
     },
     {
-        "imageSrc":"src/assets/vite.png",
+        "imageSrc":"/assets/vite.png",
         "label":"Vite"
+    },
+    {
+        "imageSrc":"/assets/dynamics365.jpg",
+        "label":"Dynamics 365"
+    },
+    {
+        "imageSrc":"/assets/postman.png",
+        "label":"Postman"
+    },
+    {
+        "imageSrc":"/assets/power-apps.jpg",
+        "label":"Power Apps"
+    },
+    {
+        "imageSrc":"/assets/power-pages.jpg",
+        "label":"Power Pages"
+    },
+    {
+        "imageSrc":"/assets/power-automate.jpg",
+        "label":"Power Automate"
+    },
+    {
+        "imageSrc":"/assets/xrm.png",
+        "label":"XRM"
     }
     
     

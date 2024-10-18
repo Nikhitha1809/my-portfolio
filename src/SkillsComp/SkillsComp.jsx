@@ -9,7 +9,7 @@ const SkillsComp= forwardRef((props,ref)=> {
         <div className='img-div'>
           {skills.map((skill,id)=>{
             return(
-              <div key={id}>
+              <div key={id} style={{margin:"5px"}}>
                 <img src={skill.imageSrc} width='100px' height='100px' className='image'/>
                 <p style={{marginLeft:"2rem", color:"white"}}>{skill.label}</p>
                 </div>

@@ -5,7 +5,7 @@
       "startDate": "Apr, 2023",
       "endDate": "Present",
       "experiences": ["Worked on SEO", "Worked on Dynamics"],
-      "imageSrc": "src/assets/italent.jpg",
+      "imageSrc": "/assets/italent.jpg",
       "location": "Hyderabad"
     },
     {
@@ -14,7 +14,7 @@
       "startDate": "Jun, 2022",
       "endDate": "Feb, 2023",
       "experiences": ["Worked on C#"],
-      "imageSrc": "src/assets/valuemomentum.jpg",
+      "imageSrc": "/assets/valuemomentum.jpg",
       "location": "Hyderabad"
     }
 ]

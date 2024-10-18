@@ -14,6 +14,12 @@
     margin-left: 45%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+@media (max-width:768px){
+    .skills-heading{
+        margin: 10px;
+        text-align: center;
+    }
+}
 .img-div{
     display: flex;
     flex-direction: row;
@@ -27,7 +33,6 @@
     margin-right: 20px;
     margin-bottom: 20px;
     border-width: 5px;
-    /* border: 5px solid transparent; Set a border style */
-    display: inline-block; /* Ensures the background applies properly */
+    display: inline-block;
     padding: 10px;
 }

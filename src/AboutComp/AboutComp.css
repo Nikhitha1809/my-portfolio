@@ -4,8 +4,13 @@
     justify-content: center;
     padding:30px;
     margin: 0% 15% 0% 15%;
-    padding-top: 5%;
-    
+    padding-top: 10%;   
+}
+@media (max-width: 768px) {
+    .About-div{
+        padding-top: 25%;
+        flex-direction: column;
+    }
 }
 .about-heading{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -26,4 +31,13 @@
 .about-button:hover{
     background-color: rgb(85, 152, 207);
     font-weight: 600;
+}
+.hero-img{
+    width: 300px;
+}
+@media (max-width:768px) {
+    .hero-img{
+        width: 150px;
+    }
+    
 }

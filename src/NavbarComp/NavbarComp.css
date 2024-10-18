@@ -1,21 +1,19 @@
+/* Base styles for the navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 5%;
+    padding: 20px;
     background-color: #282c34;
-    padding-right:5%;
+    position: fixed;
+    width: 100%;
     top: 0;
-    /* position: fixed;
-    width: 100%; */
-    /* overflow: hidden;
-    z-index: 1000; */
+    z-index: 1000;
 }
 
 .navbar-logo {
     color: white;
-    text-decoration: none;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -26,22 +24,63 @@
     gap: 20px;
     color: white;
     font-weight: 500;
-    cursor: pointer;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
- 
 }
-.link:hover{
+
+.link:hover {
     color: bisque;
 }
 
-.navbar-links li a {
-    color: white;
-    text-decoration: none;
+.navbar-links li {
+    cursor: pointer;
+}
+
+/* Hamburger menu for mobile */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+/* Hide the links for mobile view */
+@media (max-width: 768px) {
+    .navbar-links {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        height: 100vh;
+        background-color: #282c34;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+        display: none;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/* Close the navbar when a link is clicked */
+.navbar-links li {
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
 .navbar-links li a:hover {
-    color: #61dafb; /* Change color on hover */
+    color: #61dafb; 
 }

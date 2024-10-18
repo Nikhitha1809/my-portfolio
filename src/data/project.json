@@ -3,8 +3,8 @@
         {
             "project-name": "My-Portfolio",
             "github-link": "https://github.com/Nikhitha1809/my-portfolio",
-            "deploy-link": "https://film-project-reactjs.vercel.app",
-            "project-image": "src/assets/my-portfolio.png",
+            "deploy-link": "https://my-portfolio-reactjs-alpha.vercel.app/",
+            "project-image": "/assets/my-portfolio.png",
             "description": "My Portfolio is about my skills, experience, projects etc.",
             "details-desc": "My Portfolio is about my skills, experience, projects etc. It is responsive website.",
             "features": [
@@ -24,7 +24,7 @@
             "project-name": "Film-Project",
             "github-link": "https://github.com/Nikhitha1809/film-project",
             "deploy-link": "https://film-project-reactjs.vercel.app",
-            "project-image": "src/assets/film-project.png",
+            "project-image": "/assets/film-project.png",
             "description": "The Film-Project is a web-based application where users can explore a variety of movies and film-related content.",
             "details-desc": "The Film-Project is a web-based application where users can explore a variety of movies and film-related content. It involves several features like.",
             "features": [
@@ -42,7 +42,7 @@
             "project-name": "Food-munch",
             "github-link": "https://github.com/Nikhitha1809/foodmunch",
             "deploy-link": "https://food-munch-restaurent.vercel.app/",
-            "project-image": "src/assets/food-munch.png",
+            "project-image": "/assets/food-munch.png",
             "description": "The Food-munch Project is a simple, static website designed using only HTML and CSS. It showcases a restaurant’s online presence, focusing on visual appeal and user-friendly navigation.",
             "details-desc": "Food munch website is a responsive website for restaurent using only HTML and CSS involves the process.",
             "features": [
@@ -60,7 +60,7 @@
             "project-name": "Real-estate",
             "github-link": "https://github.com/Nikhitha1809/RealEstateProject",
             "deploy-link": "https://real-estate-project-pi.vercel.app/",
-            "project-image": "src/assets/real-estate.png",
+            "project-image": "/assets/real-estate.png",
             "description": "A Real-Estate Project typically involves creating a website that showcases properties for sale or rent, providing users with information about available real estate listings, agents, and services.",
             "details-desc": "A Real-Estate Project typically involves creating a website that showcases properties for sale or rent, providing users with information about available real estate listings, agents, and services.",
             "features": [
@@ -80,7 +80,7 @@
             "project-name": "Countries-search",
             "github-link": "https://github.com/Nikhitha1809/countries-search",
             "deploy-link": "https://countries-search-brown.vercel.app/",
-            "project-image": "src/assets/countries-search.png",
+            "project-image": "/assets/countries-search.png",
             "description": "A Countries Search project typically involves building a web application that allows users to search and explore information about different countries around the world. This project can be built using HTML, CSS, JavaScript, and possibly external APIs for fetching country data.",
             "details-desc": "A Countries Search project typically involves building a web application that allows users to search and explore information about different countries around the world.",
             "features": [
@@ -97,7 +97,7 @@
             "project-name": "Muthoot-finance",
             "github-link": "https://github.com/Nikhitha1809/muthoot-finance",
             "deploy-link": "https://muthoot-finance.vercel.app/",
-            "project-image": "src/assets/muthoot-finance.png",
+            "project-image": "/assets/muthoot-finance.png",
             "description": "This Muthot finance website is static website which is realted to company data. This project can be built with HTML, CSS",
             "details-desc": "The Muthoot Finance website is an online platform that serves as the digital interface for Muthoot Finance, a leading financial services company in India. It is a static website.",
             "features": [
@@ -114,7 +114,7 @@
             "project-name": "Todo-app",
             "github-link": "https://github.com/Nikhitha1809/todo-app-typescript",
             "deploy-link": "https://todo-app-typescript-flame.vercel.app/",
-            "project-image": "src/assets/todo-app-ts.png",
+            "project-image": "/assets/todo-app-ts.png",
             "description": "A ToDo App is a simple yet powerful web application that allows users to create, manage, and organize tasks or to-do lists. The app is designed to help users keep track of their daily tasks and prioritize their work efficiently.",
             "details-desc": "A ToDo App is a simple yet powerful web application that allows users to create, manage, and organize tasks or to-do lists. The app is designed to help users keep track of their daily tasks and prioritize their work efficiently.",
             "features": [
@@ -134,8 +134,8 @@
         {
             "project-name": "My-Portfolio",
             "github-link": "https://github.com/Nikhitha1809/my-portfolio",
-            "deploy-link": "https://film-project-reactjs.vercel.app",
-            "project-image": "src/assets/my-portfolio.png",
+            "deploy-link": "https://my-portfolio-reactjs-alpha.vercel.app/",
+            "project-image": "/assets/my-portfolio.png",
             "description": "My Portfolio is about my skills, experience, projects etc.",
             "details-desc": "My Portfolio is about my skills, experience, projects etc. It is responsive website.",
             "features": [
@@ -155,7 +155,7 @@
             "project-name": "Film-Project",
             "github-link": "https://github.com/Nikhitha1809/film-project",
             "deploy-link": "film-project-reactjs.vercel.app",
-            "project-image": "src/assets/film-project.png",
+            "project-image": "/assets/film-project.png",
             "description": "The Film-Project is a web-based application where users can explore a variety of movies and film-related content.",
             "details-desc": "The Film-Project is a web-based application where users can explore a variety of movies and film-related content. It involves several features like.",
             "features": [
@@ -174,8 +174,8 @@
         {
             "project-name": "My-Portfolio",
             "github-link": "https://github.com/Nikhitha1809/my-portfolio",
-            "deploy-link": "https://film-project-reactjs.vercel.app",
-            "project-image": "src/assets/my-portfolio.png",
+            "deploy-link": "https://my-portfolio-reactjs-alpha.vercel.app/",
+            "project-image": "/assets/my-portfolio.png",
             "description": "My Portfolio is about my skills, experience, projects etc.",
             "details-desc": "My Portfolio is about my skills, experience, projects etc. It is responsive website.",
             "features": [
@@ -195,7 +195,7 @@
             "project-name": "Film-Project",
             "github-link": "https://github.com/Nikhitha1809/film-project",
             "deploy-link": "film-project-reactjs.vercel.app",
-            "project-image": "src/assets/film-project.png",
+            "project-image": "/assets/film-project.png",
             "description": "The Film-Project is a web-based application where users can explore a variety of movies and film-related content.",
             "details-desc": "The Film-Project is a web-based application where users can explore a variety of movies and film-related content. It involves several features like.",
             "features": [
@@ -213,7 +213,7 @@
             "project-name": "Real-estate",
             "github-link": "https://github.com/Nikhitha1809/RealEstateProject",
             "deploy-link": "https://real-estate-project-pi.vercel.app/",
-            "project-image": "src/assets/real-estate.png",
+            "project-image": "/assets/real-estate.png",
             "description": "A Real-Estate Project typically involves creating a website that showcases properties for sale or rent, providing users with information about available real estate listings, agents, and services.",
             "details-desc": "A Real-Estate Project typically involves creating a website that showcases properties for sale or rent, providing users with information about available real estate listings, agents, and services.",
             "features": [
@@ -233,7 +233,7 @@
             "project-name": "Food-munch",
             "github-link": "https://github.com/Nikhitha1809/foodmunch",
             "deploy-link": "https://food-munch-restaurent.vercel.app/",
-            "project-image": "src/assets/food-munch.png",
+            "project-image": "/assets/food-munch.png",
             "description": "The Food-munch Project is a simple, static website designed using only HTML and CSS. It showcases a restaurant’s online presence, focusing on visual appeal and user-friendly navigation.",
             "details-desc": "Food munch website is a responsive website for restaurent using only HTML and CSS involves the process.",
             "features": [

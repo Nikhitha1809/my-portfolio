@@ -36,22 +36,33 @@ const Projects = forwardRef((props, ref) => {
     return (
         <div className='projects-div' ref={ref}>
             <h1 className='projects-heading'>My Projects</h1>
-            <Box sx={{ width: '100%', typography: 'body1' }}>
+            {/* <Box sx={{ width: '100%', typography: 'body1' }}> */}
+            <Box sx={{ borderBottom: 1, borderColor: 'divider', overflowX: 'auto', typography: 'body1'}}>
                 <TabContext value={value}>
                     <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                        <TabList onChange={handleChange} aria-label="lab API tabs example">
+                        <TabList onChange={handleChange} aria-label="lab API tabs example" variant="scrollable"  scrollButtons="auto" allowScrollButtonsMobile 
+        sx={{
+            "& .MuiTab-root": {
+                color: "white", // Style for the tabs text
+            }
+        }}
+>
                             <Tab style={{ color: "white" }} label="All" value="1" />
                             <Tab style={{ color: "white" }} label="Recent" value="2" />
                             <Tab style={{ color: "white" }} label="Popular" value="3" />
                         </TabList>
                     </Box>
-                    <TabPanel value="1">
-                        <div className='projects-container'>
+                    <TabPanel value="1" className='projects-container' style={{padding: 0}}>
+                 
                             {All.map((project, id) => (
                                 <div className='single-project-div' key={id}>
-                                    <img className='project-img' alt={project['project-name']} src={project['project-image']} width='300px' height='250px' />
+                                    <div style={{width:"100%", height:"200px"}}>
+                                    <img alt={project['project-name']} src={project['project-image']} className='project-img' />
+                                    </div>
+                                    <div style={{margin:"10px"}}>
                                     <h4>{project['project-name']}</h4>
                                     <p className='project-desc'>{truncateDescription(project.description)}</p>
+                                    </div>
                                     <div className='button-container'>
                                         <button className='project-button'>
                                             <a style={{ textDecoration: "none", color: "white" }} href={project['github-link']} target="_blank">Code</a>
@@ -63,20 +74,20 @@ const Projects = forwardRef((props, ref) => {
                                         </button>
                                         <button className='details-btn' onClick={() => handleShowDetails(project)}>Details <FontAwesomeIcon icon={faInfoCircle} /></button>
                                     </div>
-                                    {/* <div className='details-btn-container'>
-                                        <button className='details-btn' onClick={() => handleShowDetails(project)}>Details</button>
-                                    </div> */}
                                 </div>
                             ))}
-                        </div>
+                        {/* </div> */}
                     </TabPanel>
-                    <TabPanel value="2">
-                        <div className='projects-container'>
+                    <TabPanel value="2" className='projects-container' style={{padding: 0}}>
                             {Recent.map((project, id) => (
                                 <div className='single-project-div' key={id}>
-                                    <img alt={project['project-name']} src={project['project-image']} width='300px' height='200px' />
+                                    <div style={{width:"100%", height:"200px"}}>
+                                    <img alt={project['project-name']} src={project['project-image']} style={{objectFit: "fill", width:"100%", height:"100%"}} />
+                                    </div>
+                                    <div style={{margin:"10px"}}>
                                     <h4>{project['project-name']}</h4>
                                     <p className='project-desc'>{truncateDescription(project.description)}</p>
+                                    </div>
                                     <div className='button-container'>
                                         <button className='project-button'>
                                             <a style={{ textDecoration: "none", color: "white" }} href={project['github-link']} target="_blank">Code</a>
@@ -90,15 +101,19 @@ const Projects = forwardRef((props, ref) => {
                                     </div>
                                 </div>
                             ))}
-                        </div>
+                        {/* </div> */}
                     </TabPanel>
-                    <TabPanel value="3">
-                        <div className='projects-container'>
+                    <TabPanel value="3" className='projects-container' style={{padding: 0}}>
+                        {/* <div className='projects-container' style={{padding: 0}}> */}
                             {Popular.map((project, id) => (
                                 <div className='single-project-div' key={id}>
-                                    <img alt={project['project-name']} src={project['project-image']} width='300px' height='200px' />
+                                    <div style={{width:"100%", height:"200px"}}>
+                                    <img alt={project['project-name']} src={project['project-image']} style={{objectFit: "fill", width:"100%", height:"100%"}} />
+                                    </div>
+                                    <div style={{margin:"10px"}}>
                                     <h4>{project['project-name']}</h4>
                                     <p className='project-desc'>{truncateDescription(project.description)}</p>
+                                    </div>
                                     <div className='button-container'>
                                         <button className='project-button'>
                                             <a style={{ textDecoration: "none", color: "white" }} href={project['github-link']} target="_blank">Code</a>
@@ -112,7 +127,7 @@ const Projects = forwardRef((props, ref) => {
                                     </div>
                                 </div>
                             ))}
-                        </div>
+                        {/* </div> */}
                     </TabPanel>
                 </TabContext>
             </Box>

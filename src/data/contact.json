@@ -1,16 +1,16 @@
 [
     {
-        "image":"src/assets/gmail.jpg",
+        "image":"/assets/gmail.jpg",
         "link":"mailto:chilukuri.nikhitha1999@gmail.com",
         "label":"chilukuri.nikhitha1999@gmail.com"
     },
     {
-        "image":"src/assets/linkedin.jpg",
+        "image":"/assets/linkedin.jpg",
         "link":"https://www.linkedin.com/in/nikhitha-chilukuri-3771aa223/",
         "label":"LinkedIn"
     },
     {
-        "image":"src/assets/github-icon.png",
+        "image":"/assets/github-icon.png",
         "link":"https://github.com/Nikhitha1809",
         "label":"GitHub"
     } 

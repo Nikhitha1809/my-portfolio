@@ -9,7 +9,7 @@ import GetInTouch from './GetInTouch/GetInTouch';
 
 
 function App() {
-    const targetRef = useRef(null); // Create a ref for the target component
+    const targetRef = useRef(null); 
     const handleScroll = () => {
         targetRef.current.scrollIntoView({ behavior: 'smooth' }); // Scroll to the target component
     };
