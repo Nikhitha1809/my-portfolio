@@ -39,6 +39,25 @@
             ]
         },
         {
+            "project-name": "Drawing-App",
+            "github-link": "https://github.com/Nikhitha1809/Drawing-App",
+            "deploy-link": "https://drawing-app-psi-eight.vercel.app/",
+            "project-image": "/assets/drawing-app.png",
+            "description": "The Drawing React App is a simple canvas-based application where users can draw freehand using adjustable settings. The app features a customizable drawing experience, allowing users to choose Brush color, opacity, brush width.",
+            "details-desc": "The Drawing React App is a simple canvas-based application where users can draw freehand using adjustable settings. The app features a customizable drawing experience, allowing users to choose Brush color, opacity, brush width",
+            "features": [
+                "Real-Time Updates",
+                "Smooth Drawing",
+                "Dynamic Canvas"
+            ],
+            "languages": [
+                "HTML",
+                "CSS",
+                "React",
+                "Typescript"
+            ]
+        },
+        {
             "project-name": "Food-munch",
             "github-link": "https://github.com/Nikhitha1809/foodmunch",
             "deploy-link": "https://food-munch-restaurent.vercel.app/",
@@ -131,6 +150,25 @@
         }
     ],
     "Recent": [
+        {
+            "project-name": "Drawing-App",
+            "github-link": "https://github.com/Nikhitha1809/Drawing-App",
+            "deploy-link": "https://drawing-app-psi-eight.vercel.app/",
+            "project-image": "/assets/drawing-app.png",
+            "description": "The Drawing React App is a simple canvas-based application where users can draw freehand using adjustable settings. The app features a customizable drawing experience, allowing users to choose Brush color, opacity, brush width.",
+            "details-desc": "The Drawing React App is a simple canvas-based application where users can draw freehand using adjustable settings. The app features a customizable drawing experience, allowing users to choose Brush color, opacity, brush width",
+            "features": [
+                "Real-Time Updates",
+                "Smooth Drawing",
+                "Dynamic Canvas"
+            ],
+            "languages": [
+                "HTML",
+                "CSS",
+                "React",
+                "Typescript"
+            ]
+        },
         {
             "project-name": "My-Portfolio",
             "github-link": "https://github.com/Nikhitha1809/my-portfolio",
